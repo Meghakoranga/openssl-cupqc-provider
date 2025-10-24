@@ -1,0 +1,10 @@
+OpenSSL 3.5.0 8 Apr 2025 (Library: OpenSSL 3.5.0 8 Apr 2025)
+built on: Fri Oct 24 16:27:41 2025 UTC
+platform: linux-x86_64
+options:  bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -g -O0 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+OPENSSLDIR: "/usr/local/ssl"
+ENGINESDIR: "/usr/local/lib64/engines-3"
+MODULESDIR: "/usr/local/lib64/ossl-modules"
+Seeding source: os-specific
+CPUINFO: OPENSSL_ia32cap=0x7ffef3ffffebffff:0xfb417ffef3bfb7ef:0x00001c30ffdd4432:0x0000000000040000:0x0000000000000000

@@ -1,0 +1,17 @@
+[DEBUG] km_gen_init called
+[DEBUG] km_gen_init success
+[DEBUG] km_gen called
+[cuPQC-GPU] Keygen OK
+[WARN] could not find PUB inside SK by scan; will try default offset=1216
+[DEBUG] sync_pub_from_sk: copied PUB from SK at off=1216
+[DEBUG] km_gen completed successfully
+[DEBUG] km_export_cb called (callback form)
+[DEBUG] PUB (1184): 58 79 ed 59 25 dd bb 5f e7 47 6d 21 c5 b2 5c 71 6d 64 e0 51 f9 40 71 f0 1b 70 8e d2 06 93 31 82 ...
+[DEBUG] SK(head) (2400): 76 2a a2 f4 83 91 ce d8 2f 35 39 2a 5c 30 a1 a5 c5 8b 37 01 80 56 0b 52 64 6c 20 4c 11 63 bf 87 ...
+[DEBUG] km_export_cb: prepared PRIV of length 2400
+[DEBUG] km_export_cb: prepared PUB of length 1184
+[ERROR] km_export_cb: param_cb callback failed
+Error writing key(s)
+00D0AC976F7F0000:error:1C80009E:Provider routines:ml_kem_key_fromdata:invalid key:providers/implementations/keymgmt/ml_kem_kmgmt.c:440:explicit ML-KEM-768 public key does not match private
+[DEBUG] km_free called
+[DEBUG] km_gen_cleanup called
